@@ -19,5 +19,5 @@ if (($oper -eq 'stop') -and (Ask-YesOrNo -message "Do you really want shout down
 if ($oper -eq 'start') {
 	echo "Starting"
 	$logfilename = "$((date).ToString().Replace('-','').Replace(':','').Replace(' ','_')).log"
-	Start-Process "$CMD" -argumentlist " -D $PG_Data -l $PG_Root\log\$logfilename start"
+	Start-Process "$CMD" -WindowStyle Minimized -ArgumentList " -D $PG_Data -l $PG_Root\log\$logfilename start"
 }
