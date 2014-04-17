@@ -1,0 +1,14 @@
+Aliasy
+======
+
+Tworzymy: 
+> git config --global alias.st status 
+
+wiecej [StackOverflow](http://stackoverflow.com/questions/2553786/how-do-i-alias-commands-in-git)
+
+alias.co=checkout                                                               
+alias.b=branch                                                                  
+alias.st=status                                                                 
+alias.ls=log --oneline -10                                                      
+alias.lg1=log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all                     
+alias.lg2=log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all                                                                              
