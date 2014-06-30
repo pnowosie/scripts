@@ -5,8 +5,8 @@
 .Description
 		Example use: 
 		Just type: 
-						> Time-FileName						  - to get string you can use elsewhere
-						> "$(Time-FileName).log" 		- to use inside a command
+		> Time-FileName		  - to get string you can use elsewhere
+		> "$(Time-FileName).log"  - to use inside a command
 #>
 Function Time-FileName
 {
