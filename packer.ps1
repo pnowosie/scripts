@@ -13,8 +13,7 @@
     Project name - should match directory name inside $ProjDirRoot directory. It usualy is repository root directory.
 	
   .PARAMETER VsProjName
-    VS Project dir   - VisualStudio project directory name somewhere in Project dir. Default is the same as Project, 
-			but you can specify other for multiprojects solutions. 
+    VS Project dir   - VisualStudio project directory name somewhere in Project dir. Default is the same as Project, but you can specify other for multiprojects solutions. 
 
   .EXAMPLE
     U:\PS> .\packer.ps1 RepoRoot -VsProjName SlnSubProject
