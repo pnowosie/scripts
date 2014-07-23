@@ -29,7 +29,7 @@ param(
 	[Parameter(Mandatory=$true, Position=0, ParameterSetName="Project", HelpMessage="Project name (e.g. VS solution")]
 	[ValidateNotNullOrEmpty()]
 	[string] $Project,
-  [string] $VsProjName = $Project
+	[string] $VsProjName = $Project
 )
 &{
 	## Script configuration
